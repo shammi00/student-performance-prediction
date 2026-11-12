@@ -10,6 +10,20 @@ An end-to-end machine learning application that estimates a student's **mathemat
 ### Mathematics score prediction
 ![Predicted mathematics score](screenshots/prediction-result.png)
 
+### Mathematics score prediction
+![Predicted mathematics score](screenshots/prediction-result.png)
+
+## Exploratory Data Analysis
+
+### Score distributions across math, reading, and writing
+![Violin plots of math, reading, and writing scores](screenshots/eda-score-distribution.png)
+
+### Average scores by test preparation status and lunch type
+![Average subject scores by test preparation status and lunch type](screenshots/eda-test-preparation.png)
+
+### Average scores by parental education level
+![Average student scores by parental education level](screenshots/eda-parental-education.png)
+
 ## Features
 
 - Predicts a **numeric mathematics score**, rather than a pass/fail category.
