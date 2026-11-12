@@ -10,9 +10,6 @@ An end-to-end machine learning application that estimates a student's **mathemat
 ### Mathematics score prediction
 ![Predicted mathematics score](screenshots/prediction-result.png)
 
-### Mathematics score prediction
-![Predicted mathematics score](screenshots/prediction-result.png)
-
 ## Exploratory Data Analysis
 
 ### Score distributions across math, reading, and writing
