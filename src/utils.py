@@ -54,7 +54,7 @@ def evaluate_models(X_train, y_train, X_test, y_test, models, params):
                 # save the best model score in report dictionary
                 report[model_name] = test_model_score
 
-                return report
+        return report
 
     except Exception as e:
         raise CustomException(e, sys)   
