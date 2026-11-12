@@ -33,7 +33,11 @@ def predict_datapoint():
 
         predict_pipeline=PredictPipeline()
         pred=predict_pipeline.predict(pred_df)
-        return render_template('home.html', result=pred[0])
+        return render_template(
+            'home.html',
+            result=pred[0],
+            form_data=request.form
+            )
 
 if __name__=="__main__":
     app.run(host="0.0.0.0")
