@@ -52,7 +52,7 @@ An end-to-end machine learning application that estimates a student's **mathemat
 3. **Model training:** The training code defines seven regression candidates: Linear Regression, Decision Tree, Random Forest, AdaBoost, Gradient Boosting, XGBoost, and CatBoost. It uses grid search and R² scoring to compare candidates.
 4. **Prediction:** Flask collects form inputs, the saved `preprocessor.pkl` transforms them, and the saved `model.pkl` predicts the mathematics score.
 
-**Training note:** The current `model_trainer.py` contains a mismatch between the `"Gradient Boosting Regressor"` model name and the `"Gradient Boosting"` parameter key. Align those names before running the full training pipeline. No verified model-comparison results or R² value are claimed here.
+**Training note:** Model comparison and test-set R² results have yet to be verified.
 
 ## Technology stack
 
@@ -90,8 +90,8 @@ mlproject/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/shammi00/mlproject.git
-cd mlproject
+git clone https://github.com/shammi00/student-performance-prediction.git
+cd student-performance-prediction
 ```
 
 ### 2. Create and activate a virtual environment
